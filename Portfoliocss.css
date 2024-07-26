@@ -142,6 +142,7 @@ th {
     align-items: center;
     height: 50vh;
     font-family: 'Montserrat';
+    
 
 }
 
@@ -222,6 +223,7 @@ p {
 }
 .myskill{
     padding-top: 90px;
+    padding-bottom: 400px;
 }
 .skillfont{
     font-family: 'Montserrat';
