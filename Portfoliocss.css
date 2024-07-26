@@ -1,0 +1,230 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(7, 2, 2);
+    margin: auto;
+    color: aliceblue;
+    width: 100%;
+}
+
+h2 {
+    color: aliceblue;
+    padding-right: 250px;
+    padding-left: 80px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+.flex {
+    display: flex;
+    margin-top: 20px;
+}
+
+li {
+    padding-top: 6px;
+    padding-left: 90px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    transition-duration: 0.6s;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.navbar:hover {
+    background-color: rgb(251, 253, 255);
+    color: black;
+}
+
+nav {
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.397);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #000000;
+
+}
+
+
+/*resume*/
+.res {
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    height: 35px;
+    margin-top: 18px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+.res:hover {
+    background-color: rgb(66, 66, 194);
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.section1 {
+    padding-top: 15rem;
+    padding-left: 7rem;
+}
+
+.imga {
+    margin-top: -210px;
+    margin-left: 60%;
+    height: 200px;
+    width: 200px;
+}
+
+.icons a {
+    float: left;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #ffbf35;
+    color: #ffbf35;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+.sec2d {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 40px 100px 0px 100px;
+    margin-top: 10px;
+    
+    
+}
+
+table {
+    width: 100%;
+    font-family: 'Montserrat';
+}
+
+table th,
+table td {
+    font-size: 20px;
+    text-align: left;
+    padding: 9px 0px;
+}
+
+th {
+    color: orange;
+}
+
+.table1 {
+    display: flex;
+}
+
+.educationc {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-family: 'Montserrat';
+
+}
+
+.education-section {
+    text-align: center;
+}
+
+.eduhead {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.education-details {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30PX;
+}
+
+.education-item {
+    text-align: left;
+}
+
+.edu {
+    font-size: 23px;
+    margin-bottom: 5px;
+    font-family: 'Montserrat';
+    color: orange;
+}
+
+.underline {
+    height: 2px;
+    background-color: rgb(0, 255, 0);
+    width: 100%;
+    margin: 0px 0 0px 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.skillw{
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+.skill{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom  : 10px;
+    background-color: #00ff00;
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+}
+.web{
+    width: 70%;
+    background-color: rgb(0, 255, 0);
+}
+.java{
+    width: 40%;
+    background-color: rgb(0, 255, 0);
+}
+.cpp{
+    width: 30%;
+    background-color: rgb(0, 255, 0);
+}
+.graphic{
+    width: 90%;
+    background-color: rgb(0, 255, 0);
+}
+.wholeskill{
+    padding-left: 500px;
+    padding-top: 0px;
+}
+.myskill{
+    padding-top: 90px;
+}
+.skillfont{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+}
