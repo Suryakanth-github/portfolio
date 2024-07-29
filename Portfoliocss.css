@@ -1,6 +1,15 @@
-
 html {
     scroll-behavior: smooth;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.3;
 }
 
 body {
@@ -110,8 +119,8 @@ nav {
     flex-direction: row-reverse;
     padding: 40px 100px 0px 100px;
     margin-top: 10px;
-    
-    
+
+
 }
 
 table {
@@ -135,14 +144,14 @@ th {
 }
 
 .educationc {
-    background-color: #000000;
+
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
     font-family: 'Montserrat';
-    
+
 
 }
 
@@ -186,47 +195,94 @@ p {
     margin: 5px 0;
 }
 
-.skillw{
-    width: 50%;
-    background-color: #ffffff;
-    border-radius: 10px;
 
-}
-.skill{
+.skill {
     text-align: right;
     padding-top: 10px;
-    padding-bottom  : 10px;
+    padding-bottom: 10px;
     background-color: #00ff00;
     border-radius: 10px;
     color: black;
     font-weight: bolder;
+
 }
-.web{
+
+.skillscontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    padding-right: 125px;
+    padding-bottom: 100px;
+}
+.skillw {
+    width: 160%;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+
+
+.web {
     width: 70%;
     background-color: rgb(0, 255, 0);
+
 }
-.java{
+
+.java {
     width: 40%;
     background-color: rgb(0, 255, 0);
 }
-.cpp{
+
+.cpp {
     width: 30%;
     background-color: rgb(0, 255, 0);
 }
-.graphic{
+
+.graphic {
     width: 90%;
     background-color: rgb(0, 255, 0);
 }
-.wholeskill{
-    padding-left: 500px;
-    padding-top: 0px;
+
+.wholeskill {
+
+    /* flex: 1; */
+    
 }
-.myskill{
+
+.myskill {
     padding-top: 90px;
-    padding-bottom: 400px;
+    padding-bottom: 40px;
+
+
 }
-.skillfont{
+
+.skillfont {
     font-family: 'Montserrat';
     font-size: 20px;
     font-weight: 700;
+}
+.contactus{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 200px; 
+    padding-right: 90px;
+    line-height: 2px; 
+    padding-bottom: 40px;
+
+}
+#ic{
+    font-size: 18px;
+    margin-top: 0px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #ffbf35;
+    color: #ffbf35;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+.width{
+    font-family: 'Montserrat';
 }
